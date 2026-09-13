@@ -59,6 +59,7 @@ h1 em{font-style:italic;color:var(--gold)}
 .hero-stats{display:flex;gap:2.5rem;justify-content:center;padding-top:2rem;border-top:1px solid var(--border);flex-wrap:wrap}
 .stat-num{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:400;color:var(--p);display:block;line-height:1}
 .stat-label{font-size:0.72rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-top:0.3rem}
+.feature-strip-grid{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.5rem;text-align:center}
 section{padding:5.5rem 2rem}
 .container{max-width:1060px;margin:0 auto}
 .sec-label{font-size:0.72rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:0.6rem}
@@ -219,8 +220,8 @@ h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.9rem,4vw,2.8rem);fon
 .finput{background:#fff;border:1px solid var(--border);padding:0.75rem 1rem;font-family:'Jost',sans-serif;font-size:0.9rem;color:var(--dark);outline:none;transition:border-color 0.2s;width:100%}
 .finput:focus{border-color:var(--p)}
 textarea.finput{min-height:120px;resize:vertical}
-@media(max-width:900px){.website-proof-grid,.white-label-grid,.club-welcome-grid,.office-web-grid{grid-template-columns:1fr}.website-proof-preview{margin-top:1rem}.club-welcome-logo{justify-content:flex-start}.club-welcome-logo img{width:142px}}
-@media(max-width:700px){.about-grid,.contact-grid,.platform-grid,.diff-intro,.specialist-grid,.trial-box{grid-template-columns:1fr}.nav-links{display:none}.hero-stats{gap:1.5rem}.screens-row{justify-content:center}}
+@media(max-width:900px){.website-proof-grid,.white-label-grid,.club-welcome-grid,.office-web-grid{grid-template-columns:1fr}.website-proof-preview{margin-top:1rem}.club-welcome-logo{justify-content:flex-start}.club-welcome-logo img{width:142px}.feature-strip-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.about-grid,.contact-grid,.platform-grid,.diff-intro,.specialist-grid,.trial-box{grid-template-columns:1fr}.nav-links{display:none}.hero-stats{gap:1.5rem}.screens-row{justify-content:center}.feature-strip-grid{grid-template-columns:1fr}}
 </style>
 
 <script type="application/ld+json">
@@ -319,7 +320,7 @@ src="https://www.facebook.com/tr?id=2364705601019763&amp;ev=PageView&amp;noscrip
 <!-- Search member & call - front and center -->
 
 <section style="background:var(--p);padding:2.5rem 2rem">
-  <div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1.5rem;text-align:center">
+  <div class="feature-strip-grid">
     <div>
       <div style="font-family:'Cormorant Garamond',serif;font-size:2rem;color:var(--gold);font-weight:300;line-height:1">1000+</div>
       <div style="font-size:0.75rem;color:rgba(255,255,255,0.55);font-weight:300;margin-top:0.4rem;letter-spacing:0.05em">Members managed</div>
