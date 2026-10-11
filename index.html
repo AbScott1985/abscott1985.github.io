@@ -260,6 +260,20 @@ fbq('track', 'PageView');
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=2364705601019763&amp;ev=PageView&amp;noscript=1"/></noscript>
 <!-- End Meta Pixel Code -->
+<!-- Brevo Conversations chat widget -->
+<script>
+    (function(d, w, c) {
+        w.BrevoConversationsID = '6a23dbfdaf0fe2c4950d6a52';
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        var s = d.createElement('script');
+        s.async = true;
+        s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'BrevoConversations');
+</script>
+<!-- /Brevo Conversations chat widget -->
 </head>
 <body>
 
@@ -1524,17 +1538,5 @@ document.querySelectorAll('.faq-q').forEach(btn=>{
   });
 });
 </script>
-<script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6a0043e801f21ca15fd45b08"></script>
-<style>
-  /* Ensure chat widget stays fixed bottom right */
-  #leadconnector-chat-widget,
-  [id*="leadconnector"],
-  [class*="leadconnector"] {
-    position: fixed !important;
-    bottom: 20px !important;
-    right: 20px !important;
-    z-index: 99999 !important;
-  }
-</style>
 </body>
 </html>
