@@ -221,6 +221,7 @@ h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.9rem,4vw,2.8rem);fon
 textarea.finput{min-height:120px;resize:vertical}
 @media(max-width:900px){.website-proof-grid,.white-label-grid,.club-welcome-grid,.office-web-grid{grid-template-columns:1fr}.website-proof-preview{margin-top:1rem}.club-welcome-logo{justify-content:flex-start}.club-welcome-logo img{width:142px}}
 @media(max-width:700px){.about-grid,.contact-grid,.platform-grid,.diff-intro,.specialist-grid,.trial-box{grid-template-columns:1fr}.nav-links{display:none}.hero-stats{gap:1.5rem}.screens-row{justify-content:center}}
+.stats-band-grid{grid-template-columns:repeat(4,1fr)!important}@media(max-width:700px){.stats-band-grid{grid-template-columns:repeat(2,1fr)!important}}
 </style>
 
 <script type="application/ld+json">
@@ -319,7 +320,7 @@ src="https://www.facebook.com/tr?id=2364705601019763&amp;ev=PageView&amp;noscrip
 <!-- Search member & call - front and center -->
 
 <section style="background:var(--p);padding:2.5rem 2rem">
-  <div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1.5rem;text-align:center">
+  <div class="stats-band-grid" style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1.5rem;text-align:center">
     <div>
       <div style="font-family:'Cormorant Garamond',serif;font-size:2rem;color:var(--gold);font-weight:300;line-height:1">1000+</div>
       <div style="font-size:0.75rem;color:rgba(255,255,255,0.55);font-weight:300;margin-top:0.4rem;letter-spacing:0.05em">Members managed</div>
