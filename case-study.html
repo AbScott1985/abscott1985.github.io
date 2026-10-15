@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Forest of Dean Gymnastics Club Case Study | Apps By Angela</title>
+<meta name="description" content="How Forest of Dean Gymnastics Club uses Apps By Angela to manage fees, classes, waiting lists, awards, events and Gift Aid in one bespoke gymnastics club app."/>
+<link rel="canonical" href="https://appsbyangela.co.uk/case-study.html"/>
+<meta property="og:title" content="More Than Just a Membership App — Forest of Dean Gymnastics Club"/>
+<meta property="og:description" content="A gymnastics club's experience of a bespoke club management system, in the words of its Centre Manager."/>
+<meta property="og:url" content="https://appsbyangela.co.uk/case-study.html"/>
+<meta property="og:type" content="article"/>
+<link rel="icon" type="image/png" href="/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&amp;family=Jost:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--p:#3D1452;--pm:#5C2275;--pp:#F0E8F4;--gold:#C9A84C;--gl:#E8D49A;--cream:#FAF7F2;--cd:#F0EBE1;--dark:#1E0A2A;--muted:#7A6585;--border:rgba(61,20,82,0.13)}
+html{scroll-behavior:smooth}
+body{font-family:'Jost',sans-serif;background:var(--cream);color:var(--dark);line-height:1.7;font-size:16px}
+a{text-decoration:none;color:inherit}ul{list-style:none}
+nav{position:sticky;top:0;z-index:100;background:rgba(250,247,242,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:66px}
+.nav-logo{display:inline-flex;align-items:center;gap:0.7rem;font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:500;color:var(--p);letter-spacing:0.03em;white-space:nowrap}
+.nav-logo img{width:32px;height:32px;border-radius:8px;object-fit:cover;display:block;box-shadow:0 4px 16px rgba(61,20,82,0.12)}
+.nav-links{display:flex;gap:1.15rem;align-items:center}.nav-links a{font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);transition:color 0.2s}.nav-links a:hover{color:var(--p)}
+.nav-links .nav-cta{padding:0.48rem 0.95rem;font-size:0.68rem;color:#fff;min-width:0;text-align:center;white-space:nowrap;line-height:1.1;border-radius:999px}
+.btn{display:inline-block;padding:0.62rem 1.45rem;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;font-family:'Jost',sans-serif;cursor:pointer;transition:all 0.25s;border:none;line-height:1.2;white-space:nowrap;border-radius:999px}
+.btn-dark{background:var(--p);color:#fff}.btn-dark:hover{background:var(--pm)}
+.btn-gold{background:var(--gold);color:#fff}.btn-gold:hover{background:#b8963e}
+.container{max-width:1080px;margin:0 auto;padding:0 2rem}
+section{padding:5rem 2rem}
+.sec-label{font-size:0.72rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:0.75rem}
+h1,h2{font-family:'Cormorant Garamond',serif;font-weight:400;line-height:1.2}
+h1{font-size:clamp(2.2rem,5vw,3.5rem);color:var(--p)}
+h2{font-size:clamp(1.6rem,3vw,2.4rem);color:var(--dark)}
+.divider{width:40px;height:2px;background:var(--gold);margin:1.25rem 0}
+.hero{min-height:70vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(150deg,var(--cream) 45%,var(--pp) 100%);padding:5rem 2rem}
+.hero-inner{max-width:760px;width:100%;margin:0 auto}
+.breadcrumb{font-size:0.78rem;color:var(--muted);margin-bottom:2rem}
+.breadcrumb a{color:var(--gold)}.breadcrumb a:hover{text-decoration:underline}
+.feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;margin-top:2.5rem}
+.feature-card{background:#fff;border:1px solid var(--border);padding:2rem;transition:box-shadow 0.2s,border-color 0.2s;border-radius:8px}
+.feature-card:hover{border-color:rgba(61,20,82,0.3);box-shadow:0 4px 24px rgba(61,20,82,0.06)}
+.feature-icon{width:44px;height:44px;background:var(--pp);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:1rem;font-size:1.2rem}
+.feature-title{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:500;color:var(--p);margin-bottom:0.5rem}
+.feature-desc{font-size:0.88rem;color:var(--muted);font-weight:300;line-height:1.7}
+.payment-types{display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.5rem}
+.payment-pill{background:#fff;border:1px solid var(--border);padding:0.68rem 1.25rem;font-size:0.82rem;font-weight:400;color:var(--p);display:flex;align-items:center;gap:0.5rem;border-radius:999px}
+.highlight-band{background:var(--p);padding:3rem 2rem;text-align:center}
+.highlight-band p{font-family:'Cormorant Garamond',serif;font-size:clamp(1.3rem,3vw,1.9rem);color:#fff;font-weight:300;line-height:1.5;max-width:800px;margin:0 auto}
+.highlight-band strong{color:var(--gold)}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
+@media(max-width:700px){.two-col{grid-template-columns:1fr}.nav-links{display:none}}
+.check-list{display:flex;flex-direction:column;gap:0.6rem;margin-top:1rem}
+.check-list li{display:flex;gap:0.75rem;font-size:0.88rem;color:var(--muted);font-weight:300}
+.check-list li::before{content:'✓';color:var(--gold);flex-shrink:0;font-weight:500}
+.fee-types{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-top:2rem}
+.fee-type{background:#fff;border:1px solid var(--border);padding:1.5rem;text-align:center;border-radius:8px}
+.fee-type-icon{font-size:1.8rem;margin-bottom:0.5rem}
+.fee-type-name{font-family:'Cormorant Garamond',serif;font-size:1rem;font-weight:500;color:var(--p)}
+.cta-section{background:var(--dark);padding:4rem 2rem;text-align:center}
+.cta-section h2{color:#fff;margin-bottom:1rem}
+.cta-section p{color:rgba(255,255,255,0.5);font-weight:300;margin-bottom:2rem;max-width:560px;margin-left:auto;margin-right:auto}
+footer{background:var(--dark);padding:2rem;text-align:center;font-size:0.82rem;color:rgba(255,255,255,0.3)}
+footer a{color:var(--gold)}
+
+.quote-sig{margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid var(--border)}
+.quote-sig .name{font-family:'Cormorant Garamond',serif;font-size:1.4rem;color:var(--p);font-weight:500}
+.quote-sig .role{font-size:0.85rem;color:var(--muted);font-weight:300}
+.lede{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.3rem;color:var(--muted);font-weight:300}
+</style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2364705601019763');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2364705601019763&amp;ev=PageView&amp;noscript=1"/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo"><img src="assets/apps-by-angela-logo.png" alt="Apps By Angela logo"/>Apps By Angela</a>
+  <div class="nav-links">
+  <a href="index.html" >Home</a>
+  <a href="parents.html" >Parents</a>
+  <a href="coaches.html" >Coaches</a>
+  <a href="attendance.html" >Registers</a>
+  <a href="payments.html" >Payments</a>
+  <a href="admin-panel.html" >Admin Panel</a>
+    <a href="index.html#contact" class="btn btn-dark nav-cta">Enquire Now</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="index.html">Home</a> &rsaquo; Case study</div>
+    <p class="sec-label">Forest of Dean Gymnastics Club</p>
+    <h1>More Than Just a Membership App</h1>
+    <div class="divider"></div>
+    <p style="font-size:1.15rem;color:var(--p);font-weight:400;max-width:640px;margin-bottom:1rem">How Apps by Angela is transforming the way we run Forest of Dean Gymnastics Club</p>
+    <p class="lede" style="max-width:640px;margin-bottom:2rem">An independent gymnastics club&rsquo;s experience of a bespoke club management system.</p>
+    <a href="index.html#contact" class="btn btn-dark">Enquire Now</a>
+  </div>
+</div>
+
+<section style="background:var(--cream)">
+  <div class="container" style="max-width:860px">
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Running a busy gymnastics club involves so much more than coaching.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Behind every class, competition, achievement and event is an enormous amount of administration. From memberships, fees and registers to waiting lists, awards, parent communications and organising events, there is always something that needs managing.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">At Forest of Dean Gymnastics Club, we have hundreds of gymnasts across our preschool, recreational and competitive programmes, each with different needs and training arrangements.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">We wanted a system that would bring everything together, reduce the workload on our office and coaching teams, and make life easier for our families.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Most importantly, we wanted software that could work around the way our club operates, rather than having to change everything we do to fit the software.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Apps by Angela has already been a game changer for us!</p>
+  </div>
+</section>
+
+<section style="background:var(--cream)">
+  <div class="container" style="max-width:860px">
+    <h2>Membership and Automatic Fee Management</h2>
+    <div class="divider"></div>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Managing fees across a gymnastics club can be complicated, particularly when gymnasts train different numbers of hours each week or attend several classes.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">The app automatically calculates fees based on each gymnast's total weekly training hours, rather than simply the number of classes or days they attend.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">There is also a manual override, giving the office flexibility when individual circumstances require it.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Monthly invoices are automatically generated and sent to parents, removing a huge amount of repetitive administration from the office.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Membership charges, family accounts, payments and other invoices can all be managed within the same system.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">For a club with hundreds of members, having these processes automated makes an enormous difference.</p>
+  </div>
+</section>
+
+<section style="background:var(--cd)">
+  <div class="container" style="max-width:860px">
+    <h2>Class Management and Changes</h2>
+    <div class="divider"></div>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">One of the features we particularly appreciate is how class changes can be managed through the app.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Parents can submit requests directly, but coaches can also recommend class changes themselves.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">A coach can select the gymnast's new class, specify the date the change should take effect and choose whether the new class should replace their existing class or be added alongside it.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">The parent receives the request through the app and, once approved, the gymnast is automatically moved to or added to the appropriate register on the agreed date.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">This is particularly useful for gymnasts progressing through recreational classes or adding additional training sessions.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">It also means that coaches, parents and the office are all working from the same information, without needing numerous emails or messages to arrange a straightforward class change.</p>
+  </div>
+</section>
+
+<section style="background:var(--cream)">
+  <div class="container" style="max-width:860px">
+    <h2>Cancellation Requests and Leaving Dates</h2>
+    <div class="divider"></div>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Even cancellations are managed through the app.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Parents can submit a cancellation request, which the office can review and approve.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">The system can calculate any outstanding fees on a pro rata basis, depending on the gymnast's agreed leaving date.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Once approved, the gymnast is automatically removed from the class register on the correct date.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">This avoids having to keep separate reminders or manually remove gymnasts when their notice period ends.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">It's another example of how something that previously required several administrative steps can now be handled through one process.</p>
+  </div>
+</section>
+
+<section style="background:var(--cd)">
+  <div class="container" style="max-width:860px">
+    <h2>Waiting Lists and Class Availability</h2>
+    <div class="divider"></div>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Managing waiting lists is a significant part of running a gymnastics club, especially when classes are regularly full.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">With Apps by Angela, parents can add their child and browse the available classes suitable for their age.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">If a class is full, they can request to join the waiting list directly through the app, without needing to contact the office.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">The club can review waiting list requests, monitor class availability and offer places as spaces become available.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Parents can then respond to offers through the app, helping to streamline the process from initial enquiry to joining a class.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">The system also collects important information about medical conditions, disabilities and additional support needs, helping the club consider appropriate classes and staffing arrangements.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Rather than relying on separate enquiry forms, emails and spreadsheets, waiting list administration is brought together in one place.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">For both new families and our office team, this makes the joining process much more straightforward.</p>
+  </div>
+</section>
+
+<div class="highlight-band">
+  <p>&ldquo;It&rsquo;s changing the way we manage the club, how our teams work together and how we communicate with our families.&rdquo;</p>
+</div>
+
+<section style="background:var(--cream)">
+  <div class="container" style="max-width:860px">
+    <h2>Registers and Attendance</h2>
+    <div class="divider"></div>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Coaches can access their class registers through the app and record attendance directly.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">They can also access relevant gymnast information, helping them manage their sessions more effectively.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Parents can report absences through the app, reducing the number of telephone calls and emails received by the office.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Having class information, attendance and gymnast records connected means less duplication and more up-to-date information for everyone.</p>
+  </div>
+</section>
+
+<section style="background:var(--cd)">
+  <div class="container" style="max-width:860px">
+    <h2>Gymnastics Awards and Achievements</h2>
+    <div class="divider"></div>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">This is one of our favourite features!</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Our coaches can record individual skills as gymnasts achieve them, with parents receiving notifications celebrating their child's progress.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Once all the required skills for an award have been completed, the office can review the achievement and issue the relevant invoice directly through the app.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">The system tracks the awards process, including which gymnasts have completed awards, which invoices have been issued, which certificates and badges need preparing and which awards have been handed out.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Once an award has been completed, a little digital badge also appears on the gymnast's profile.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">This gives gymnasts and parents a lasting record of their achievements and makes it easier for families to see how their child is progressing.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">From a club perspective, it brings together the coaching, invoicing and administrative sides of our awards programme.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Rather than relying on handwritten lists and separate records, we can follow the entire process through the app.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">And for the gymnasts, it's lovely to see their hard work recognised!</p>
+  </div>
+</section>
+
+<section style="background:var(--cream)">
+  <div class="container" style="max-width:860px">
+    <h2>Competition Invitations and Entries</h2>
+    <div class="divider"></div>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Organising competition entries involves much more than simply asking gymnasts whether they want to compete.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">There are invitations to send, responses to track, entry fees to collect and information to manage.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Through the app, competition invitations can be sent directly to the relevant gymnasts and their families.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Parents can accept their invitations, with invoices automatically generated and the club able to track entries and payments.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">This removes the need to manage competition invitations across separate emails, spreadsheets and payment records.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">For a club regularly entering gymnasts into competitions, having everything in one place is a huge help.</p>
+  </div>
+</section>
+
+<section style="background:var(--cd)">
+  <div class="container" style="max-width:860px">
+    <h2>Holiday Activities, Trials and Bookings</h2>
+    <div class="divider"></div>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Alongside our regular classes, we run holiday activities, gymnastics camps, trials and additional sessions.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">The app allows us to create bookable activities with dates, times, age restrictions, capacity limits and payment options.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Bookings can be made through the app, while public booking links allow us to promote activities to families who aren't already members.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">This means we can advertise sessions to the wider community without needing a separate booking system.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Booking confirmations, payment arrangements and participant information can all be handled within the same platform.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">It's particularly useful when we're promoting activities at short notice and need to manage bookings efficiently.</p>
+  </div>
+</section>
+
+<section style="background:var(--cream)">
+  <div class="container" style="max-width:860px">
+    <h2>Event Management and Ticketing</h2>
+    <div class="divider"></div>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">This is another feature that really demonstrates how Angela listens to the needs of a club.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Our Christmas gymnastics displays involve multiple performances, limited tickets per family and the challenge of keeping families together.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Rather than having to use an external ticketing website, Angela has developed an event management and ticketing system within our club app.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">We can create different performance sessions, each with its own time and capacity.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Gymnasts can be allocated to sessions, with families kept together where needed.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Ticket purchases can be restricted to families allocated to a particular session, with a maximum number of tickets per family.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Once the initial allocation period has finished, remaining tickets can be released for other families to purchase on a first come, first served basis.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">The system also provides ticket sales information and downloadable attendance and door lists, including the gymnasts associated with each family.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">There are even options for setting deadlines for families to register their interest in taking part.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">For clubs organising Christmas displays, competitions, showcases or other events, this type of functionality can save an incredible amount of administration.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">And having it integrated into our existing app, rather than paying for or managing another platform, is a massive bonus.</p>
+  </div>
+</section>
+
+<section style="background:var(--cd)">
+  <div class="container" style="max-width:860px">
+    <h2>Parent Communication and the Homepage Carousel</h2>
+    <div class="divider"></div>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Keeping families informed is an important part of running any club.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">The app provides a central place for parents to access information about their children's classes, fees, payments, achievements and activities.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Notifications help keep families updated without the office having to send individual messages.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">One feature we particularly love is the homepage carousel.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">We can display important announcements, reminders, promotions and club information directly within the app.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Even better, the carousel supports clickable links.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">This means that if we're advertising a holiday workshop, reminding parents about British Gymnastics membership or promoting an event, families can click the announcement and go straight to the relevant information or booking page.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">It's a fantastic way to make sure important messages are visible and easy to act upon.</p>
+  </div>
+</section>
+
+<div class="highlight-band">
+  <p>&ldquo;Angela takes the time to understand not just what we&rsquo;re asking for, but <strong>why we need it</strong> and how it would work in practice.&rdquo;</p>
+</div>
+
+<section style="background:var(--cream)">
+  <div class="container" style="max-width:860px">
+    <h2>Gift Aid Management for Charitable Clubs</h2>
+    <div class="divider"></div>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">As a registered charity, this is an especially valuable feature for us.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Gift Aid is an important source of additional income for eligible charitable payments, but keeping accurate records and preparing claims can be time-consuming.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">The app includes a Gift Aid option, allowing us to record and track the relevant declarations and information within our membership system.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">It also provides reporting that can be easily transferred into the documentation required for HMRC Gift Aid submissions.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">This makes it much easier to keep track of the information needed for claims, without maintaining a completely separate set of records.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">For a charitable club, where every additional pound can make a difference, having Gift Aid functionality built directly into the system is fantastic.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">It's also a great example of Angela understanding that clubs aren't all run in the same way. Some are commercial businesses, while others, like ours, operate as charities.</p>
+  </div>
+</section>
+
+<section style="background:var(--cd)">
+  <div class="container" style="max-width:860px">
+    <h2>One System Connecting the Whole Club</h2>
+    <div class="divider"></div>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">What makes Apps by Angela so valuable isn't simply the number of features it offers.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">It's how those features work together.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">A coach can recommend a class change, a parent can approve it and the gymnast's register can automatically update on the agreed date.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">A gymnast can achieve a skill, their parent can receive a notification, the completed award can be reviewed and invoiced, and the office can track the certificate and badge through to presentation.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">A competition invitation can be sent, accepted, invoiced and tracked.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">A parent can request a cancellation, the office can approve the leaving date and the system can calculate the relevant fees and remove the gymnast from the register automatically.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">One action leads to the next, without the office having to manually manage every stage.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">For our office team, this means less repetitive administration, fewer separate systems and the potential to save a considerable amount of time.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">For our coaches, it means easier access to registers, skills tracking and class management.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">For our parents, it means greater convenience, clearer communication and a much better picture of their child's gymnastics journey.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">And for the club as a whole, it means being able to concentrate more of our time and energy on what really matters: our gymnasts.</p>
+  </div>
+</section>
+
+<section style="background:var(--cream)">
+  <div class="container" style="max-width:860px">
+    <h2>What Really Makes the Difference? Angela Herself!</h2>
+    <div class="divider"></div>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">As impressive as the app is, what truly sets Apps by Angela apart is Angela herself.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">She genuinely listens to the people using her software.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">If we encounter something that could work better, or think of a feature that would make life easier, we can discuss it with her.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">And the wonderful thing is that she doesn't just listen politely.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">She gets excited about new ideas and is always willing and happy to explore how she can make them happen!</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Some of the features we're most impressed with have come directly from conversations about everyday situations in our club.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Angela takes the time to understand not just what we're asking for, but why we need it and how it would work in practice.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Introducing a completely new system of this scale naturally comes with challenges, and we're still ironing out a few creases as we use and test more of its functions.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">But Angela has been incredibly approachable, responsive and committed to getting things right.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">Her enthusiasm and dedication are remarkable, and it's reassuring to know that when we suggest an improvement, we're speaking directly to someone who genuinely cares about making the system better.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">That personal approach is something we really value.</p>
+  </div>
+</section>
+
+<section style="background:var(--cd)">
+  <div class="container" style="max-width:860px">
+    <h2>Already a Game Changer, With So Much More to Come!</h2>
+    <div class="divider"></div>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">We're still discovering everything the app can do, and we're genuinely excited about how it continues to develop.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">For Forest of Dean Gymnastics Club, Apps by Angela isn't simply a replacement for our previous membership software.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">It's changing the way we manage the club, how our teams work together and how we communicate with our families.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">The ability to bring so many different processes into one system is invaluable, but the fact that the app can continue to grow and adapt to our needs makes it even more exciting.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">It's not just about having an app with lots of features. It's about having a system that understands the realities of running a gymnastics club, developed by someone who genuinely cares about making that job easier.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">It's already a game changer for us, and once we've ironed out the remaining creases, I genuinely believe it's going to be amazing.</p>
+<p style="color:var(--muted);font-weight:300;margin-bottom:1rem">We can't wait to see what comes next!</p>
+  </div>
+</section>
+
+<section style="background:var(--cream)">
+  <div class="container" style="max-width:860px">
+    <div class="quote-sig" style="margin-top:0;border-top:none;padding-top:0">
+      <p class="name">Mandie Adams</p>
+      <p class="role">Centre Manager<br/>Forest of Dean Gymnastics Club</p>
+    </div>
+  </div>
+</section>
+
+<div class="cta-section">
+  <div class="container">
+    <p class="sec-label" style="color:var(--gl)">Ready to get started?</p>
+    <h2>See how it could work for your club.</h2>
+    <p>Enquire now and we&rsquo;ll talk through how Apps By Angela could be shaped around the way your club runs.</p>
+    <a href="index.html#contact" class="btn btn-gold">Enquire Now</a>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 <span style="color:var(--gold)">Apps By Angela</span>. All rights reserved. &middot; <a href="index.html">Home</a> &middot; <a href="index.html#contact">Contact</a> &middot; <a href="privacy-policy.html">Privacy</a></p>
+</footer>
+
+</body>
+</html>
